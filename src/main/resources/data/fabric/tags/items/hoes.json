@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:aerialite_hoe",
+    "mctherpg:copper_hoe",
+    "mctherpg:bronze_hoe",
+    "mctherpg:steel_hoe"
+  ]
+}

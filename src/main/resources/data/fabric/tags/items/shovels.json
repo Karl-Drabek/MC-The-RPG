@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:aerialite_shovel",
+    "mctherpg:bronze_shovel",
+    "mctherpg:copper_shovel",
+    "mctherpg:steel_shovel"
+
+  ]
+}

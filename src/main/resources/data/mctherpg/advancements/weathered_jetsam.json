@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "mctherpg:weathered_jetsam"
+    },
+    "title": "Who's is This",
+    "description": "Find Weathered Jetsam.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mctherpg:enter_aether",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "mctherpg:weathered_jetsam"
+            ],
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

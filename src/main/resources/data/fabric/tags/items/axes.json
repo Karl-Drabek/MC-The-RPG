@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:flint_hatchet",
+    "mctherpg:obsidian_hatchet",
+    "mctherpg:aerialite_axe",
+    "mctherpg:bronze_axe",
+    "mctherpg:copper_axe",
+    "mctherpg:steel_axe"
+  ]
+}

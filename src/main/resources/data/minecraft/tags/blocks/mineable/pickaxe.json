@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:mud_brick_slab",
+    "mctherpg:mud_brick_stairs",
+    "mctherpg:mud_bricks",
+    "mctherpg:weathered_jetsam",
+    "mctherpg:platinum_ore",
+    "mctherpg:deepslate_platinum_ore",
+    "mctherpg:platinum_block",
+    "mctherpg:aerialite_block",
+    "mctherpg:tin_ore",
+    "mctherpg:deepslate_tin_ore",
+    "mctherpg:bronze_block",
+    "mctherpg:steel_block"
+
+  ]
+}

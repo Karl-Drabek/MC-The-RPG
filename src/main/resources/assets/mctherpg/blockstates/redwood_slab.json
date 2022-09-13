@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctherpg:block/redwood_slab"
+    },
+    "type=double": {
+      "model": "mctherpg:block/redwood_planks"
+    },
+    "type=top": {
+      "model": "mctherpg:block/redwood_slab_top"
+    }
+  }
+}

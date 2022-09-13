@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctherpg:refined_aerialite"
+    },
+    {
+      "item": "mctherpg:refined_aerialite"
+    },
+    {
+      "item": "mctherpg:refined_aerialite"
+    },
+    {
+      "item": "mctherpg:refined_aerialite"
+    },
+    {
+      "item": "mctherpg:platinum_ingot"
+    },
+    {
+      "item": "mctherpg:platinum_ingot"
+    },
+    {
+      "item": "mctherpg:platinum_ingot"
+    },
+    {
+      "item": "mctherpg:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "mctherpg:aerialite_ingot",
+    "count": 1
+  }
+}

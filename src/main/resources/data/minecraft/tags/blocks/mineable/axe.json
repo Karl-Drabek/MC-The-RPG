@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:redwood_fence_gate",
+    "mctherpg:redwood_log",
+    "mctherpg:redwood_wood",
+    "mctherpg:stripped_redwood_log",
+    "mctherpg:stripped_redwood_wood",
+    "mctherpg:redwood_planks",
+    "mctherpg:redwood_button",
+    "mctherpg:redwood_door",
+    "mctherpg:redwood_fence",
+    "mctherpg:redwood_pressure_plate",
+    "mctherpg:redwood_slab",
+    "mctherpg:redwood_stairs",
+    "mctherpg:redwood_sapling",
+    "mctherpg:redwood_trapdoor"
+  ]
+}

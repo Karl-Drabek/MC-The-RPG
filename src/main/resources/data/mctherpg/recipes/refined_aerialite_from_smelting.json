@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mctherpg:weathered_jetsam"
+  },
+  "result": "mctherpg:refined_aerialite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

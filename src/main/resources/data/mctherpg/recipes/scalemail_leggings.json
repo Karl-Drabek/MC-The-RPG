@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "mctherpg:dragon_scale"
+  },
+  "result": {
+    "item": "mctherpg:scalemail_leggings"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mctherpg:steel_block",
+    "count": 1
+  }
+}

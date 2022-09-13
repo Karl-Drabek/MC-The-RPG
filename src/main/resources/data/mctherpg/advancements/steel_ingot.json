@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "mctherpg:bronze_ingot"
+    },
+    "title": "What a Steel!",
+    "description": "Obtain a steel ingot.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "mctherpg:steel_ingot"
+            ],
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

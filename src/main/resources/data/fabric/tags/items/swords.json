@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:flint_dagger",
+    "mctherpg:obsidian_dagger",
+    "mctherpg:aerialite_sword",
+    "mctherpg:copper_sword",
+    "mctherpg:bronze_sword",
+    "mctherpg:steel_sword"
+  ]
+}

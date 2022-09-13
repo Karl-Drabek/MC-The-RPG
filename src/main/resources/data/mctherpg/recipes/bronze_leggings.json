@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "mctherpg:bronze_leggings",
+    "count": 1
+  }
+}

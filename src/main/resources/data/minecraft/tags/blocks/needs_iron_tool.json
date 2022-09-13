@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:platinum_ore",
+    "mctherpg:deepslate_platinum_ore",
+    "mctherpg:platinum_block",
+    "mctherpg:tin_ore",
+    "mctherpg:deepslate_tin_ore",
+    "mctherpg:bronze_block",
+    "mctherpg:steel_block"
+  ]
+}

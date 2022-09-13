@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:redwood_log",
+    "mctherpg:redwood_wood",
+    "mctherpg:stripped_redwood_log",
+    "mctherpg:stripped_redwood_wood"
+  ]
+}

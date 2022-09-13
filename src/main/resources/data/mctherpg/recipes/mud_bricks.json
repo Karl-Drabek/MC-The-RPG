@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:mud_brick"
+    }
+  },
+  "result": {
+    "item": "mctherpg:mud_bricks",
+    "count": 1
+  }
+}

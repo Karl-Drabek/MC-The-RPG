@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mctherpg:blocks/redwood_log_top",
+    "side": "mctherpg:blocks/redwood_log"
+  }
+}

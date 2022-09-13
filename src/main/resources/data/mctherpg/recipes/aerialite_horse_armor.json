@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_horse_armor"
+  },
+  "addition": {
+    "item": "mctherpg:aerialite_ingot"
+  },
+  "result": {
+    "item": "mctherpg:aerialite_horse_armor"
+  }
+}

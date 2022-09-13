@@ -1,0 +1,6 @@
+{
+  "parent": "mctherpg:item/aerialite_bow",
+  "textures": {
+    "layer0": "mctherpg:item/aerialite_bow_pulling_2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "mctherpg:aerialite_ingot"
+  },
+  "result": {
+    "item": "mctherpg:aerialite_shovel"
+  }
+}

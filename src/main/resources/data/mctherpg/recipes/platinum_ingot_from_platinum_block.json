@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:platinum_block"
+    }
+  },
+  "result": {
+    "item": "mctherpg:platinum_ingot",
+    "count": 9
+  }
+}

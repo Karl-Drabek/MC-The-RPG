@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mctherpg:aerialite_pickaxe",
+    "mctherpg:bronze_pickaxe",
+    "mctherpg:copper_pickaxe",
+    "mctherpg:steel_pickaxe"
+  ]
+}
