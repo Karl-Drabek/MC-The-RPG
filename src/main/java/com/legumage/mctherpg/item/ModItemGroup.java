@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup MATERIALS = FabricItemGroupBuilder.build(new Identifier(Mctherpg.MOD_ID, "materials"),
-            () -> new ItemStack(ModItems.MUD_BALL));
+    public static final ItemGroup MODITEMS = FabricItemGroupBuilder.build(new Identifier(Mctherpg.MOD_ID, "materials"),
+            () -> new ItemStack(ModItems.REFINED_AERIALITE));
 }
