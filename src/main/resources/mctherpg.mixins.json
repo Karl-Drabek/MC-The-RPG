@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "MctherpgMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
