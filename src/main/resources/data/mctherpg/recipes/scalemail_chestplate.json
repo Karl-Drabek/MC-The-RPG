@@ -1,12 +1,20 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "minecraft:chainmail_chestplate"
-  },
-  "addition": {
-    "item": "mctherpg:dragon_scale"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:dragon_scale"
+    },
+    "/": {
+      "item": "minecraft:chainmail_chestplate"
+    }
   },
   "result": {
-    "item": "mctherpg:scalemail_chestplate"
+    "item": "mctherpg:scalemail_chestplate",
+    "count": 1
   }
 }

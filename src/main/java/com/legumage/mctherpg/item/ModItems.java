@@ -21,7 +21,7 @@ public class ModItems {
     }
     //items
     public static Item MUD_BALL = registerItem("mud_ball", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC))); // ModItemGroup.MATERIALS
+            .group(ItemGroup.MISC))); // ModItemGroup.MODITEMS
     public static Item DRAGON_SCALE = registerItem("dragon_scale", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
 
@@ -214,6 +214,6 @@ public class ModItems {
             .group(ItemGroup.MISC)));
 
     public static void registerModItems() {
-        System.out.println("Registering Mod Items for" + Mctherpg.MOD_ID);
+        Mctherpg.LOGGER.debug("Registering Mod Items for" + Mctherpg.MOD_ID);
     }
 }

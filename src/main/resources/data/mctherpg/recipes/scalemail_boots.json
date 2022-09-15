@@ -1,12 +1,20 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "minecraft:chainmail_boots"
-  },
-  "addition": {
-    "item": "mctherpg:dragon_scale"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mctherpg:dragon_scale"
+    },
+    "/": {
+      "item": "minecraft:chainmail_boots"
+    }
   },
   "result": {
-    "item": "mctherpg:scalemail_boots"
+    "item": "mctherpg:scalemail_boots",
+    "count": 1
   }
 }
