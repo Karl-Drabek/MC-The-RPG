@@ -28,7 +28,7 @@ public class Mctherpg implements ModInitializer {
         ModVillagers.registerVillagers();
         ModVillagers.registerTrades();
         ModLootTableModifiers.ModifyLootTables();
-    }
+        }
 // https://crafting.thedestruc7i0n.ca/
 // https://misode.github.io/loot-table/
 // https://misode.github.io/advancement/

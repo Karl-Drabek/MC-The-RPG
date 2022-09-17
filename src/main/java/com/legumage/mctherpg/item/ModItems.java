@@ -8,7 +8,6 @@ import com.legumage.mctherpg.item.custom.ModHoeItem;
 import com.legumage.mctherpg.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.legumage.mctherpg.item.ModArmorMaterial;
-import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;

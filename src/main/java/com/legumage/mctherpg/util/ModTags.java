@@ -2,6 +2,7 @@ package com.legumage.mctherpg.util;
 
 import com.legumage.mctherpg.Mctherpg;
 import net.minecraft.block.Block;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;

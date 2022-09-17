@@ -9,7 +9,6 @@ import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
-
 public class ModLootTableModifiers {
     private static final Identifier ENDER_DRAGON_ID
             = new Identifier("minecraft", "entities/ender_dragon");
