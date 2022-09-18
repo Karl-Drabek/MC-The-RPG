@@ -18,44 +18,44 @@ public class ModBlocks {
     //blocks
     public static final Block MUD_BLOCK = registerBlock("mud_block",
             new Block(FabricBlockSettings.of(Material.AGGREGATE)
-                    .strength(2, 2)));
+                    .strength(2, 2).requiresTool()));
     public static final Block MUD_BRICKS = registerBlock("mud_bricks",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2, 2)));
+                    .strength(2, 2).requiresTool()));
     public static final Block MUD_BRICK_STAIRS = registerBlock("mud_brick_stairs",
             new ModStairsBlock(ModBlocks.MUD_BRICKS.getDefaultState(), FabricBlockSettings.of(Material.STONE)
-                    .strength(2, 2)));
+                    .strength(2, 2).requiresTool()));
     public static final Block MUD_BRICK_SLAB = registerBlock("mud_brick_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE)
-                    .strength(2, 2)));
+                    .strength(2, 2).requiresTool()));
 
     public static final Block WEATHERED_JETSAM = registerBlock("weathered_jetsam",
             new Block(FabricBlockSettings.of(Material.METAL)
-                    .strength(30, 1200)));
+                    .strength(30, 1200).requiresTool()));
     public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
     public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(3f, 3f)));
+                    .strength(3f, 3f).requiresTool()));
     public static final Block AERIALITE_BLOCK = registerBlock("aerialite_block",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(45f, 1200f)));
+                    .strength(45f, 1200f).requiresTool()));
     public static final Block TIN_ORE = registerBlock("tin_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.of(Material.STONE)
-                    .strength(2.5f, 2.5f)));
+                    .strength(2.5f, 2.5f).requiresTool()));
 
 
     public static final Block REDWOOD_LOG = registerBlock("redwood_log",
