@@ -1,8 +1,18 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:weathered_jetsam",
-    "mctherpg:aerialite_block",
-    "minecraft:iron_ore"
+    "mctherpg:steel_block",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block",
+    "minecraft:gold_block",
+    "minecraft:raw_gold_block",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "mctherpg:platinum_ore",
+    "mctherpg:deepslate_platinum_ore",
+    "mctherpg:platinum_block"
   ]
 }

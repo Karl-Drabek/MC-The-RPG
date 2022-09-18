@@ -10,23 +10,38 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    FLINT(1, 96, 3.0F, 0.0F, 35, () -> {
+    WOOD(0, 64, 3.0F, 0.0F, 50, () -> {
+        return Ingredient.fromTag(ItemTags.PLANKS);
+    }),
+    FLINT(0, 96, 4.0F, 1.0F, 45, () -> {
         return Ingredient.ofItems(Items.FLINT);
     }),
-    AERIALITE(4, 2048, 10F, 0.0F, 7, () -> {
-        return Ingredient.ofItems(ModItems.AERIALITE_INGOT);
+    STONE(1, 128, 5.0F, 1.0F, 40, () -> {
+        return Ingredient.fromTag(ItemTags.PLANKS);
     }),
-    BRONZE(3, 768, 7F, 0.0F, 20, () -> {
-        return Ingredient.ofItems(ModItems.BRONZE_INGOT);
-    }),
-    COPPER(2, 192, 5F, 0.0F, 25 , () -> {
+    COPPER(2, 192, 6.0F, 2.0F, 35 , () -> {
         return Ingredient.ofItems(Items.COPPER_INGOT);
     }),
-    STEEL(2, 512, 7F, 0.0F, 15 , () -> {
+    IRON(3, 256, 7.0F, 2.0F, 30, () -> {
+        return Ingredient.ofItems(Items.IRON_INGOT);
+    }),
+    STEEL(4, 512, 8.0F, 3.0F, 25 , () -> {
         return Ingredient.ofItems(ModItems.STEEL_INGOT);
     }),
-    OBSIDIAN(4, 1536, 9F, 0.0F, 12 , () -> {
+    BRONZE(5, 768, 9.0F, 4.0F, 20, () -> {
+        return Ingredient.ofItems(ModItems.BRONZE_INGOT);
+    }),
+    DIAMOND(6, 1024, 10.0F, 4.0F, 15, () -> {
+        return Ingredient.ofItems(ModItems.BRONZE_INGOT);
+    }),
+    OBSIDIAN(6, 1536, 10.0F, 4.5F, 20 , () -> {
         return Ingredient.ofItems(Items.OBSIDIAN);
+    }),
+    AERIALITE(7, 2048, 11.0F, 6.0F, 10, () -> {
+        return Ingredient.ofItems(ModItems.AERIALITE_INGOT);
+    }),
+    NETHERITE(7, 2048, 11.0F, 5.0F, 10, () -> {
+        return Ingredient.ofItems(Items.NETHERITE_CHESTPLATE);
     });
 
 

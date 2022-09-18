@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "mctherpg:bronze_block",
+    "mctherpg:tin_ore",
+    "mctherpg:deepslate_tin_ore"
   ]
 }

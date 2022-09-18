@@ -8,10 +8,6 @@ import com.legumage.mctherpg.registries.ModRegistries;
 import com.legumage.mctherpg.util.ModLootTableModifiers;
 import com.legumage.mctherpg.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
-
-import net.fabricmc.fabric.api.mininglevel.v1.MiningLevelManager;
-import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterials;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

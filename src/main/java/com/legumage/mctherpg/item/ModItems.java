@@ -36,10 +36,10 @@ public class ModItems {
 
 
     public static Item FLINT_DAGGER = registerItem("flint_dagger",
-            new SwordItem(ModToolMaterial.FLINT, 2, -1.6f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.FLINT, 2, -2.0f, new FabricItemSettings()
             .group(ItemGroup.TOOLS)));
     public static Item FLINT_HATCHET = registerItem("flint_hatchet",
-            new ModAxeItem(ModToolMaterial.FLINT, 3f, -2.6f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.FLINT, 3.0f, -2.6f, new FabricItemSettings()
             .group(ItemGroup.TOOLS)));
 
     public static Item SCALEMAIL_HELMET = registerItem("scalemail_helmet",
@@ -74,19 +74,19 @@ public class ModItems {
             new HorseArmorItem(20, "aerialite", new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
     public static Item AERIALITE_SWORD = registerItem("aerialite_sword",
-            new SwordItem(ModToolMaterial.AERIALITE, 9, -2.4f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.AERIALITE, 3, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
     public static Item AERIALITE_AXE = registerItem("aerialite_axe",
-            new ModAxeItem(ModToolMaterial.AERIALITE, 12, -3f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.AERIALITE, 6.0F, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_HOE = registerItem("aerialite_hoe",
             new ModHoeItem(ModToolMaterial.AERIALITE, 0, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_SHOVEL= registerItem("aerialite_shovel",
-            new ShovelItem(ModToolMaterial.AERIALITE, 0, -3f, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.AERIALITE, 0, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_PICKAXE= registerItem("aerialite_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.AERIALITE, 0, -3f, new FabricItemSettings()
+            new ModPickaxeItem(ModToolMaterial.AERIALITE, 0, -2.8F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_BOW= registerItem("aerialite_bow",
             new BowItem(new FabricItemSettings()
@@ -111,19 +111,19 @@ public class ModItems {
             .group(ItemGroup.MISC)));
 
     public static Item BRONZE_SWORD = registerItem("bronze_sword",
-            new SwordItem(ModToolMaterial.BRONZE, 7, -2.4f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.BRONZE, 4, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
     public static Item BRONZE_AXE = registerItem("bronze_axe",
-            new ModAxeItem(ModToolMaterial.BRONZE, 9f, -3f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.BRONZE, 5.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_HOE = registerItem("bronze_hoe",
             new ModHoeItem(ModToolMaterial.BRONZE, 0, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_SHOVEL= registerItem("bronze_shovel",
-            new ShovelItem(ModToolMaterial.BRONZE, 0, -3f, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.BRONZE, 0, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_PICKAXE= registerItem("bronze_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.BRONZE, 0, -3f, new FabricItemSettings()
+            new ModPickaxeItem(ModToolMaterial.BRONZE, 0, -2.8F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_HELMET = registerItem("bronze_helmet",
             new ArmorItem(ModArmorMaterial.BRONZE, EquipmentSlot.HEAD, new FabricItemSettings()
@@ -139,19 +139,19 @@ public class ModItems {
                     .group(ItemGroup.COMBAT)));
 
     public static Item COPPER_SWORD = registerItem("copper_sword",
-            new SwordItem(ModToolMaterial.COPPER, 5, -2.4f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.COPPER, 2, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
     public static Item COPPER_AXE = registerItem("copper_axe",
-            new ModAxeItem(ModToolMaterial.COPPER, 6.5f, -3f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.COPPER, 3.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_HOE = registerItem("copper_hoe",
             new ModHoeItem(ModToolMaterial.COPPER, 0, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_SHOVEL= registerItem("copper_shovel",
-            new ShovelItem(ModToolMaterial.COPPER, 0f, -3f, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.COPPER, 0f, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_PICKAXE= registerItem("copper_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.COPPER, 0, -3f, new FabricItemSettings()
+            new ModPickaxeItem(ModToolMaterial.COPPER, 0, -2.8F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_HELMET = registerItem("copper_helmet",
             new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlot.HEAD, new FabricItemSettings()
@@ -167,19 +167,19 @@ public class ModItems {
                     .group(ItemGroup.COMBAT)));
 
     public static Item STEEL_SWORD = registerItem("steel_sword",
-            new SwordItem(ModToolMaterial.STEEL, 7, -2.4f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
     public static Item STEEL_AXE = registerItem("steel_axe",
-            new ModAxeItem(ModToolMaterial.STEEL, 9f, -3f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.STEEL, 5.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_HOE = registerItem("steel_hoe",
             new ModHoeItem(ModToolMaterial.STEEL, 0, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_SHOVEL= registerItem("steel_shovel",
-            new ShovelItem(ModToolMaterial.STEEL, 0f, -3f, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.STEEL, 0f, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_PICKAXE= registerItem("steel_pickaxe",
-            new ModPickaxeItem(ModToolMaterial.STEEL, 0, -3f, new FabricItemSettings()
+            new ModPickaxeItem(ModToolMaterial.STEEL, 0, -2.8F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_HELMET = registerItem("steel_helmet",
             new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlot.HEAD, new FabricItemSettings()
@@ -195,10 +195,10 @@ public class ModItems {
                     .group(ItemGroup.COMBAT)));
 
     public static Item OBSIDIAN_DAGGER = registerItem("obsidian_dagger",
-            new SwordItem(ModToolMaterial.FLINT, 5, -1.6f, new FabricItemSettings()
+            new SwordItem(ModToolMaterial.FLINT, 6, -2.0f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item OBSIDIAN_HATCHET = registerItem("obsidian_hatchet",
-            new ModAxeItem(ModToolMaterial.FLINT, 7f, -2.6f, new FabricItemSettings()
+            new ModAxeItem(ModToolMaterial.FLINT, 8f, -2.6f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
 
     public static Item TEST_SPAWN_EGG = registerItem("test_spawn_egg",

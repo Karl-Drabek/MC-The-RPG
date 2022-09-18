@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:platinum_ore",
-    "mctherpg:deepslate_platinum_ore",
-    "mctherpg:platinum_block",
-    "mctherpg:tin_ore",
-    "mctherpg:deepslate_tin_ore",
-    "mctherpg:bronze_block",
-    "mctherpg:steel_block"
-  ]
+    "minecraft:iron_block",
+    "minecraft:raw_iron_block",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:lapis_block",
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore"
+    ]
 }
