@@ -7,8 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mctherpg:redwood_fence",
-
+          "name": "mctherpg:redwood_fence"
         }
       ],
       "conditions": [
