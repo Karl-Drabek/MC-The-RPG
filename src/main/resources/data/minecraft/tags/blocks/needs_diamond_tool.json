@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "mctherpg:weathered_jetsam",
-    "mctherpg:aerialite_block"
+    "mctherpg:aerialite_block",
+    "minecraft:iron_ore"
   ]
 }
