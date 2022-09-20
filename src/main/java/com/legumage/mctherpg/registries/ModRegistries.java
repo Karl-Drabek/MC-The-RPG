@@ -11,12 +11,14 @@ public class ModRegistries {
         System.out.println("Now registering Fuels for " + Mctherpg.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.BANANA, 300); // ticks
+        //registry.add(ModItems.BANANA, 300); // ticks
     }
 
     public static void registerStrippables(){
         StrippableBlockRegistry.register(ModBlocks.REDWOOD_LOG, ModBlocks.STRIPPED_REDWOOD_LOG);
         StrippableBlockRegistry.register(ModBlocks.REDWOOD_WOOD, ModBlocks.STRIPPED_REDWOOD_WOOD);
+        StrippableBlockRegistry.register(ModBlocks.BANANA_TREE_LOG, ModBlocks.STRIPPED_BANANA_TREE_LOG);
+        StrippableBlockRegistry.register(ModBlocks.BANANA_TREE_WOOD, ModBlocks.STRIPPED_BANANA_TREE_WOOD);
     }
 
 }

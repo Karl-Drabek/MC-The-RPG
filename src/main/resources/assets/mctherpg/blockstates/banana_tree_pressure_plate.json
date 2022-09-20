@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "mctherpg:block/banana_tree_pressure_plate" },
+    "powered=true": { "model": "mctherpg:block/banana_tree_pressure_plate_down" }
+  }
+}

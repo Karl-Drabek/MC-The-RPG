@@ -4,6 +4,10 @@
     "mctherpg:redwood_log",
     "mctherpg:redwood_wood",
     "mctherpg:stripped_redwood_log",
-    "mctherpg:stripped_redwood_wood"
+    "mctherpg:stripped_redwood_wood",
+    "mctherpg:banana_tree_log",
+    "mctherpg:banana_tree_wood",
+    "mctherpg:stripped_banana_tree_log",
+    "mctherpg:stripped_banana_tree_wood"
   ]
 }

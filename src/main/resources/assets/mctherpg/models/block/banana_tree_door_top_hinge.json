@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "mctherpg:blocks/banana_tree_door_top",
+    "bottom": "mctherpg:blocks/banana_tree_door_bottom"
+  }
+}

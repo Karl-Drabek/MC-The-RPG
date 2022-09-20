@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "mctherpg:mud_ball"
-  },
-  "result": "mctherpg:mud_brick",
-  "experience": 0.1,
-  "cookingtime": 100
-}

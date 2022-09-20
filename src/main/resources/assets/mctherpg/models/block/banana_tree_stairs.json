@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mctherpg:blocks/banana_tree_planks",
+    "top": "mctherpg:blocks/banana_tree_planks",
+    "side": "mctherpg:blocks/banana_tree_planks"
+  }
+}

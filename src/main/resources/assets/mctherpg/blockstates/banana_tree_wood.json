@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mctherpg:block/banana_tree_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mctherpg:block/banana_tree_wood"
+    },
+    "axis=z": {
+      "model": "mctherpg:block/banana_tree_wood",
+      "x": 90
+    }
+  }
+}

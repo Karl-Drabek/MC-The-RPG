@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mctherpg:blocks/banana_tree_log",
+    "side": "mctherpg:blocks/banana_tree_log"
+  }
+}

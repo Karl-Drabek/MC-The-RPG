@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:redwood_pressure_plate"
+    "mctherpg:redwood_pressure_plate",
+    "mctherpg:banana_tree_pressure_plate"
   ]
 }

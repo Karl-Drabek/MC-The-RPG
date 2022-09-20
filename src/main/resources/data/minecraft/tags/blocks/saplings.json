@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:redwood_sapling"
+    "mctherpg:redwood_sapling",
+    "mctherpg:banana_tree_sapling"
   ]
 }

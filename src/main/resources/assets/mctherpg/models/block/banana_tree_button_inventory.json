@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "mctherpg:blocks/banana_tree_planks"
+  }
+}

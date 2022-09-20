@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mctherpg:redwood_wood"
+          "name": "mctherpg:redwood_button"
         }
       ],
       "conditions": [

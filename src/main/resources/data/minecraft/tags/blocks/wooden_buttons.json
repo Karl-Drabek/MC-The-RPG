@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:redwood_button"
+    "mctherpg:redwood_button",
+    "mctherpg:banana_tree_button"
   ]
 }

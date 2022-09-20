@@ -14,6 +14,20 @@
     "mctherpg:redwood_slab",
     "mctherpg:redwood_stairs",
     "mctherpg:redwood_sapling",
-    "mctherpg:redwood_trapdoor"
+    "mctherpg:redwood_trapdoor",
+    "mctherpg:banana_tree_fence_gate",
+    "mctherpg:banana_tree_log",
+    "mctherpg:banana_tree_wood",
+    "mctherpg:stripped_banana_tree_log",
+    "mctherpg:stripped_banana_tree_wood",
+    "mctherpg:banana_tree_planks",
+    "mctherpg:banana_tree_button",
+    "mctherpg:banana_tree_door",
+    "mctherpg:banana_tree_fence",
+    "mctherpg:banana_tree_pressure_plate",
+    "mctherpg:banana_tree_slab",
+    "mctherpg:banana_tree_stairs",
+    "mctherpg:banana_tree_sapling",
+    "mctherpg:banana_tree_trapdoor"
   ]
 }

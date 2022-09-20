@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:redwood_fence_gate"
+    "mctherpg:redwood_fence_gate",
+    "mctherpg:banana_tree_fence_gate"
   ]
 }

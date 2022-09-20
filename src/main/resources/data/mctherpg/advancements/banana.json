@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "mctherpg:bamama"
+    },
+    "title": "King of the Jungle",
+    "description": "Eat a Banana",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "banana": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "mctherpg:banana"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "banana"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

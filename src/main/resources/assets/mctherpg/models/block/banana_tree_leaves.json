@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "mctherpg:blocks/banana_tree_leaves"
+  }
+}

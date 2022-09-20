@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mctherpg:redwood_door"
+    "mctherpg:redwood_door",
+    "mctherpg:banana_tree_door"
   ]
 }

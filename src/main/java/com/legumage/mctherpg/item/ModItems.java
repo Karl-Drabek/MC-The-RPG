@@ -1,8 +1,6 @@
 package com.legumage.mctherpg.item;
 
 import com.legumage.mctherpg.Mctherpg;
-import com.legumage.mctherpg.block.ModBlocks;
-import com.legumage.mctherpg.entity.ModEntities;
 import com.legumage.mctherpg.item.custom.ModAxeItem;
 import com.legumage.mctherpg.item.custom.ModHoeItem;
 import com.legumage.mctherpg.item.custom.ModPickaxeItem;
@@ -14,26 +12,14 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    //registers items
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Mctherpg.MOD_ID, name), item);
     }
-    //items
-    public static Item MUD_BALL = registerItem("mud_ball", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC))); // ModItemGroup.MODITEMS
-    public static Item DRAGON_SCALE = registerItem("dragon_scale", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC)));
 
     public static Item BANANA = registerItem("banana", new Item(new FabricItemSettings()
             .food(new FoodComponent.Builder().snack().hunger(2).saturationModifier(0.2f).build())
             .group(ItemGroup.FOOD)));
-    public static Item PEPPER = registerItem("pepper", new Item(new FabricItemSettings()
-            .food(new FoodComponent.Builder().snack().hunger(2).saturationModifier(0.2f).build())
-            .group(ItemGroup.FOOD)));
-
-    public static Item MUD_BRICK = registerItem("mud_brick", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC)));
-
 
     public static Item FLINT_DAGGER = registerItem("flint_dagger",
             new SwordItem(ModToolMaterial.FLINT, 2, -2.0f, new FabricItemSettings()
@@ -42,6 +28,8 @@ public class ModItems {
             new ModAxeItem(ModToolMaterial.FLINT, 3.0f, -2.6f, new FabricItemSettings()
             .group(ItemGroup.TOOLS)));
 
+    public static Item DRAGON_SCALE = registerItem("dragon_scale", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC))); // ModItemGroup.MODITEMS
     public static Item SCALEMAIL_HELMET = registerItem("scalemail_helmet",
             new ArmorItem(ModArmorMaterial.DRAGON_SCALE, EquipmentSlot.HEAD, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
@@ -54,10 +42,15 @@ public class ModItems {
     public static Item SCALEMAIL_BOOTS = registerItem("scalemail_boots",
             new ArmorItem(ModArmorMaterial.DRAGON_SCALE, EquipmentSlot.FEET, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
+
     public static Item NETHERITE_HORSE_ARMOR = registerItem("netherite_horse_armor",
             new HorseArmorItem(20, "netherite", new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
 
+    public static Item REFINED_AERIALITE = registerItem("refined_aerialite", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC)));
+    public static Item AERIALITE_INGOT = registerItem("aerialite_ingot", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC)));
     public static Item AERIALITE_HELMET = registerItem("aerialite_helmet",
             new ArmorItem(ModArmorMaterial.AERIALITE, EquipmentSlot.HEAD, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
@@ -88,14 +81,7 @@ public class ModItems {
     public static Item AERIALITE_PICKAXE= registerItem("aerialite_pickaxe",
             new ModPickaxeItem(ModToolMaterial.AERIALITE, 0, -2.8F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
-    public static Item AERIALITE_BOW= registerItem("aerialite_bow",
-            new BowItem(new FabricItemSettings()
-                    .group(ItemGroup.COMBAT).maxDamage(640)));
 
-    public static Item REFINED_AERIALITE = registerItem("refined_aerialite", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC)));
-    public static Item AERIALITE_INGOT = registerItem("aerialite_ingot", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC)));
     public static Item PLATINUM_NUGGET = registerItem("platinum_nugget", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
     public static Item PLATINUM_INGOT = registerItem("platinum_ingot", new Item(new FabricItemSettings()
@@ -105,11 +91,11 @@ public class ModItems {
 
     public static Item RAW_TIN = registerItem("raw_tin", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
+
     public static Item RAW_BRONZE = registerItem("raw_bronze", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
     public static Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-
     public static Item BRONZE_SWORD = registerItem("bronze_sword",
             new SwordItem(ModToolMaterial.BRONZE, 4, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
@@ -166,6 +152,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlot.FEET, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
 
+    public static Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC)));
     public static Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()
                     .group(ItemGroup.COMBAT)));
@@ -200,17 +188,6 @@ public class ModItems {
     public static Item OBSIDIAN_HATCHET = registerItem("obsidian_hatchet",
             new ModAxeItem(ModToolMaterial.FLINT, 8f, -2.6f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
-
-    public static Item TEST_SPAWN_EGG = registerItem("test_spawn_egg",
-            new SpawnEggItem(ModEntities.TEST, 255255255, 000000000, new FabricItemSettings()
-                    .group(ItemGroup.MISC)));
-
-    public static Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC)));
-
-
-    public static Item PEPPER_SEEDS = registerItem("pepper_seeds", new AliasedBlockItem(ModBlocks.PEPPER_PLANT, new FabricItemSettings()
-            .group(ItemGroup.MISC)));
 
     public static void registerModItems() {
         Mctherpg.LOGGER.debug("Registering Mod Items for" + Mctherpg.MOD_ID);

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctherpg:block/banana_tree_slab"
+    },
+    "type=double": {
+      "model": "mctherpg:block/banana_tree_planks"
+    },
+    "type=top": {
+      "model": "mctherpg:block/banana_tree_slab_top"
+    }
+  }
+}
