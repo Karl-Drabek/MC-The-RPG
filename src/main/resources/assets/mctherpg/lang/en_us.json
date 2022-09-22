@@ -81,6 +81,7 @@
   "block.mctherpg.redwood_button": "Redwood Button",
   "block.mctherpg.redwood_door": "Redwood Door",
   "block.mctherpg.redwood_trapdoor": "Redwood Trapdoor",
+  "block.mctherpg.redwood_sapling": "Redwood Sapling",
 
   "block.mctherpg.banana_tree_log": "Banana Tree Log",
   "block.mctherpg.banana_tree_planks": "Banana Tree Planks",
@@ -96,6 +97,7 @@
   "block.mctherpg.banana_tree_button": "Banana Tree Button",
   "block.mctherpg.banana_tree_door": "Banana Tree Door",
   "block.mctherpg.banana_tree_trapdoor": "Banana Tree Trapdoor",
+  "block.mctherpg.banana_tree_sapling": "Banana Tree Sapling",
 
 
   "itemGroup.mctherpg.materials":"Materials"

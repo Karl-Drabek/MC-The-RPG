@@ -3,6 +3,8 @@ package com.legumage.mctherpg.block;
 
 import com.legumage.mctherpg.Mctherpg;
 import com.legumage.mctherpg.block.custom.*;
+import com.legumage.mctherpg.world.feature.tree.BananaTreeSaplingGenerator;
+import com.legumage.mctherpg.world.feature.tree.RedwoodSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -73,6 +75,8 @@ public class ModBlocks {
             new ModDoorBlock( FabricBlockSettings.of(Material.WOOD).nonOpaque()));
     public static final Block REDWOOD_TRAPDOOR = registerBlock("redwood_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()));
+    public static final Block REDWOOD_SAPLING = registerBlock("redwood_sapling",
+            new ModSaplingBlock(new RedwoodSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
 
     public static final Block BANANA_TREE_LOG = registerBlock("banana_tree_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)));
@@ -102,6 +106,8 @@ public class ModBlocks {
             new ModDoorBlock( FabricBlockSettings.of(Material.WOOD).nonOpaque()));
     public static final Block BANANA_TREE_TRAPDOOR = registerBlock("banana_tree_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()));
+    public static final Block BANANA_TREE_SAPLING = registerBlock("banana_tree_sapling",
+            new ModSaplingBlock(new BananaTreeSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
 
     //registers blocks
     private static Block registerBlock(String name, Block block){

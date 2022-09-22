@@ -73,10 +73,10 @@ public class ModItems {
             new ModAxeItem(ModToolMaterial.AERIALITE, 6.0F, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_HOE = registerItem("aerialite_hoe",
-            new ModHoeItem(ModToolMaterial.AERIALITE, 0, -3f, new FabricItemSettings()
+            new ModHoeItem(ModToolMaterial.AERIALITE, -2, -2f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_SHOVEL= registerItem("aerialite_shovel",
-            new ShovelItem(ModToolMaterial.AERIALITE, 0, -2.2F, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.AERIALITE, -1, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item AERIALITE_PICKAXE= registerItem("aerialite_pickaxe",
             new ModPickaxeItem(ModToolMaterial.AERIALITE, 0, -2.8F, new FabricItemSettings()
@@ -103,10 +103,10 @@ public class ModItems {
             new ModAxeItem(ModToolMaterial.BRONZE, 5.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_HOE = registerItem("bronze_hoe",
-            new ModHoeItem(ModToolMaterial.BRONZE, 0, -3f, new FabricItemSettings()
+            new ModHoeItem(ModToolMaterial.BRONZE, -2, -2f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_SHOVEL= registerItem("bronze_shovel",
-            new ShovelItem(ModToolMaterial.BRONZE, 0, -2.2F, new FabricItemSettings()
+            new ShovelItem(ModToolMaterial.BRONZE, -1, -2.2F, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item BRONZE_PICKAXE= registerItem("bronze_pickaxe",
             new ModPickaxeItem(ModToolMaterial.BRONZE, 0, -2.8F, new FabricItemSettings()
@@ -131,7 +131,7 @@ public class ModItems {
             new ModAxeItem(ModToolMaterial.COPPER, 3.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_HOE = registerItem("copper_hoe",
-            new ModHoeItem(ModToolMaterial.COPPER, 0, -3f, new FabricItemSettings()
+            new ModHoeItem(ModToolMaterial.COPPER, -1, -2f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item COPPER_SHOVEL= registerItem("copper_shovel",
             new ShovelItem(ModToolMaterial.COPPER, 0f, -2.2F, new FabricItemSettings()
@@ -161,7 +161,7 @@ public class ModItems {
             new ModAxeItem(ModToolMaterial.STEEL, 5.0f, -3f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_HOE = registerItem("steel_hoe",
-            new ModHoeItem(ModToolMaterial.STEEL, 0, -3f, new FabricItemSettings()
+            new ModHoeItem(ModToolMaterial.STEEL, -1, -2f, new FabricItemSettings()
                     .group(ItemGroup.TOOLS)));
     public static Item STEEL_SHOVEL= registerItem("steel_shovel",
             new ShovelItem(ModToolMaterial.STEEL, 0f, -2.2F, new FabricItemSettings()
